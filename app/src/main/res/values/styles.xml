@@ -21,7 +21,5 @@
     <style name="CustomTextViewStyle">
         <item name="android:textColor">@color/seed</item>
     </style>
-    <style name="ColoredIconStyle">
-        <item name="android:tint">@color/seed</item>
-    </style>
+
 </resources>

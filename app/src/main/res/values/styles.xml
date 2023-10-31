@@ -18,5 +18,7 @@
     <style name="AppBodyCard" parent="TextAppearance.Material3.BodyLarge">
 
     </style>
-
+    <style name="CustomTextViewStyle">
+        <item name="android:textColor">@color/seed</item>
+    </style>
 </resources>

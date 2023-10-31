@@ -12,7 +12,8 @@
     <com.google.android.material.appbar.CollapsingToolbarLayout
         style="?attr/collapsingToolbarLayoutLargeStyle"
         android:layout_width="match_parent"
-        android:layout_height="?attr/collapsingToolbarLayoutMediumSize">
+        android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
+        >
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/topAppBar"
@@ -21,12 +22,14 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:minHeight="?attr/actionBarSize"
-            app:menu="@menu/secondary_menu">
+            app:menu="@menu/secondary_menu"
+            app:navigationIcon="@drawable/ic_arrow_back">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/title_audio_21"
-                android:textSize="@dimen/high"/>
+                android:textSize="@dimen/high"
+                style="@style/CustomTextViewStyle"/>
             <com.google.android.material.card.MaterialCardView
                 style="@style/AppMainCardView"
                 android:layout_width="match_parent"
@@ -80,7 +83,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/label_datos"
-                app:layout_constraintTop_toBottomOf="@id/image"/>
+                app:layout_constraintTop_toBottomOf="@id/image"
+                style="@style/CustomTextViewStyle"/>
 
             <com.google.android.material.card.MaterialCardView
                 style="@style/AppMainCardView"

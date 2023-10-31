@@ -56,16 +56,24 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_marginTop="20dp"
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/image"
+                style="@style/AppMainCardView"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/size_height_image_card"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_masaje"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="20dp">
+                <com.google.android.material.imageview.ShapeableImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/size_height_image_card"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_masaje"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </com.google.android.material.card.MaterialCardView>
+
             <TextView
                 android:id="@+id/dato"
                 android:layout_marginTop="20dp"

@@ -104,6 +104,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         android:drawableStart="@drawable/ic_factory"
+                        android:paddingTop="@dimen/spacing_vertical"
                         android:paddingBottom="@dimen/spacing_vertical"/>
 
                     <com.google.android.material.textview.MaterialTextView

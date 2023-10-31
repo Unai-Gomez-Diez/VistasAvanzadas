@@ -23,7 +23,7 @@
     <!-- Note: A RecyclerView can also be used -->
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="662dp"
         android:layout_marginHorizontal="@dimen/spacing_horizontal"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 

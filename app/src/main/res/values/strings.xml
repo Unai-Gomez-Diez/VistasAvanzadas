@@ -7,4 +7,11 @@
     <string name="ic_like">Like</string>
     <string name="ic_unlike">Unlike</string>
     <string name="ic_share">Share</string>
+    <string name="ic_arrow_back">Arrow_Back</string>
+    <string name="title_audio_21">AUDIO 21</string>
+    <string name="label_datos">Dato</string>
+    <string name="label_otros">Otros Salud y belleza</string>
+    <string name="label_mail">No Disponible</string>
+    <string name="label_telefono">602244020</string>
+    <string name="label_web">https://audio21.es/</string>
 </resources>

@@ -3,6 +3,7 @@
     <dimen name="spacing_vertical">14dp</dimen>
     <dimen name="spacing_horizontal">16dp</dimen>
     <dimen name="size_height_image_card">150dp</dimen>
+    <dimen name="size_very_height_image_card">300dp</dimen>
 
 
     <!-- Fonts -->

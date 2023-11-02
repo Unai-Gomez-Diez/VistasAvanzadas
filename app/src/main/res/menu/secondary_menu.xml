@@ -8,5 +8,6 @@
         android:layout_height="wrap_content"
         android:icon="@drawable/ic_arrow_back"
         android:title="ic_arrow_back"
-        app:showAsAction="always"/>
+        app:showAsAction="always"
+        />
 </menu>

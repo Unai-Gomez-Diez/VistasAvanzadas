@@ -7,7 +7,7 @@
 
     </style>
     <style name="AppSecondToolbar" parent="Widget.Material3.CollapsingToolbar.Large">
-        <item name="android:tint">@color/seed</item>
+        <item name="android:tint">?attr/colorPrimary</item>
     </style>
     <style name="AppMainCardView" parent="Widget.Material3.CardView.Elevated">
 
@@ -19,7 +19,7 @@
 
     </style>
     <style name="CustomTextViewStyle">
-        <item name="android:textColor">@color/seed</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
     </style>
 
 </resources>

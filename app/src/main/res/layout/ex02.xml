@@ -23,23 +23,11 @@
             android:layout_width="wrap_content"
             android:minHeight="?attr/actionBarSize"
             app:menu="@menu/secondary_menu"
-
-            >
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+            app:title="@string/app_name">
 
 
-                <TextView
-                    android:id="@+id/textoinicial"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/title_audio_21"
-                    android:textSize="@dimen/high"
-                    style="@style/CustomTextViewStyle"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
-            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
             <com.google.android.material.card.MaterialCardView
                 style="@style/AppMainCardView"
@@ -120,7 +108,8 @@
                         app:layout_constraintTop_toTopOf="parent"
                         android:drawableStart="@drawable/ic_factory"
                         android:paddingTop="@dimen/spacing_vertical"
-                        android:paddingBottom="@dimen/spacing_vertical"/>
+                        android:paddingBottom="@dimen/spacing_vertical"
+                        android:drawableTint="@color/md_grey"/>
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/description"
@@ -132,7 +121,8 @@
                         app:layout_constraintEnd_toEndOf="@id/title"
                         app:layout_constraintStart_toStartOf="@id/title"
                         app:layout_constraintTop_toBottomOf="@id/title"
-                        android:drawableStart="@drawable/ic_mail"/>
+                        android:drawableStart="@drawable/ic_mail"
+                        android:drawableTint="@color/md_grey"/>
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/description2"
                         style="@style/AppBodyCard"
@@ -144,7 +134,8 @@
                         app:layout_constraintStart_toStartOf="@id/description"
                         app:layout_constraintTop_toBottomOf="@id/description"
                         android:drawableStart="@drawable/ic_phone"
-                        android:drawableEnd="@drawable/ic_update"/>
+                        android:drawableEnd="@drawable/ic_update"
+                        android:drawableTint="@color/md_grey"/>
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/description3"
                         style="@style/AppBodyCard"
@@ -156,7 +147,8 @@
                         app:layout_constraintStart_toStartOf="@id/description2"
                         app:layout_constraintTop_toBottomOf="@id/description2"
                         android:drawableStart="@drawable/ic_web"
-                        android:drawableEnd="@drawable/ic_update"/>
+                        android:drawableEnd="@drawable/ic_update"
+                        android:drawableTint="@color/md_grey"/>
 
 
                 </androidx.constraintlayout.widget.ConstraintLayout>

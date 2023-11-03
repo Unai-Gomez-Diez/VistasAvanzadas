@@ -16,6 +16,7 @@
             android:minHeight="?attr/actionBarSize"
             app:menu="@menu/main_menu"
             app:title="@string/title_category"
+
             app:titleCentered="true"
             />
 

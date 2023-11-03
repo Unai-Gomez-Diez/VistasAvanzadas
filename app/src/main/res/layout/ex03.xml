@@ -25,25 +25,6 @@
                 app:title="@string/app_name"
                 app:navigationIcon="@drawable/ic_arrow_back">
 
-
-
-
-
-                <com.google.android.material.card.MaterialCardView
-                    style="@style/AppMainCardView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-
-
-
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                </com.google.android.material.card.MaterialCardView>
-
             </com.google.android.material.appbar.MaterialToolbar>
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>

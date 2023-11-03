@@ -13,6 +13,7 @@
         style="?attr/collapsingToolbarLayoutLargeStyle"
         android:layout_width="match_parent"
         android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
+
         >
 
         <com.google.android.material.appbar.MaterialToolbar
@@ -25,25 +26,6 @@
             app:menu="@menu/secondary_menu"
             app:title="@string/title_audio_21"
             app:navigationIcon="@drawable/ic_arrow_back">
-
-
-
-
-
-            <com.google.android.material.card.MaterialCardView
-                style="@style/AppMainCardView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
-
-            </com.google.android.material.card.MaterialCardView>
 
         </com.google.android.material.appbar.MaterialToolbar>
 

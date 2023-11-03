@@ -4,8 +4,12 @@
 
     </style>
     <style name="AppMainToolbar" parent="Widget.Material3.Toolbar">
-
+        <item name="titleTextAppearance">@style/ToolbarTitleText</item>
     </style>
+    <style name="ToolbarTitleText">
+        <item name="android:textColor"></item>
+    </style>
+    
     <style name="AppSecondToolbar" parent="Widget.Material3.CollapsingToolbar.Large">
         <item name="android:tint">?attr/colorPrimary</item>
     </style>
@@ -20,6 +24,9 @@
     </style>
     <style name="CustomTextViewStyle">
         <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="MyCollapsingToolbarLayoutStyle" parent="Widget.Design.CollapsingToolbar">
+
     </style>
 
 </resources>

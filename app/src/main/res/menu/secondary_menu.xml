@@ -9,5 +9,4 @@
         android:icon="@drawable/ic_arrow_back"
         android:title="ic_arrow_back"
         app:showAsAction="always"/>
-
 </menu>

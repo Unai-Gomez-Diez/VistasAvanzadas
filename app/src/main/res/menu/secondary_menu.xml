@@ -8,5 +8,11 @@
         android:layout_height="wrap_content"
         android:icon="@drawable/ic_arrow_back"
         android:title="ic_arrow_back"
+<<<<<<<<< Temporary merge branch 1
         app:showAsAction="always"/>
+
+=========
+        app:showAsAction="always"
+        />
+>>>>>>>>> Temporary merge branch 2
 </menu>

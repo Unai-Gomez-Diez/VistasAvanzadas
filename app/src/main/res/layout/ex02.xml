@@ -13,6 +13,9 @@
         style="?attr/collapsingToolbarLayoutLargeStyle"
         android:layout_width="match_parent"
         android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
+        app:maxLines="2"
+        app:title="@string/title_audio_21"
+        app:titleEnabled="true"
         >
 
         <com.google.android.material.appbar.MaterialToolbar

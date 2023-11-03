@@ -2,24 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/arrow_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:icon="@drawable/ic_arrow_back"
-        android:title="ic_arrow_back"
-        app:showAsAction="always"/>
-    <item
-        android:id="@+id/like"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/action_favorite"
         android:icon="@drawable/ic_like"
-        android:title="ic_arrow_back"
-        app:showAsAction="always"/>
+        android:title="@string/ic_like"
+        app:showAsAction="always" />
+
+
+
     <item
-        android:id="@+id/share"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/action_share"
         android:icon="@drawable/ic_share"
-        android:title="ic_arrow_back"
-        app:showAsAction="always"/>
+        android:title="@string/ic_share"
+        android:visible="true"
+        app:showAsAction="always" />
 </menu>

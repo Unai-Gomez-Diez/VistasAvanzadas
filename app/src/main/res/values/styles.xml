@@ -5,6 +5,7 @@
     </style>
     <style name="AppMainToolbar" parent="Widget.Material3.Toolbar">
         <item name="titleTextAppearance">@style/ToolbarTitleText</item>
+        <item name="android:drawableTint">?attr/collapsingToolbarLayoutLargeStyle</item>
     </style>
     <style name="ToolbarTitleText">
         <item name="android:textColor"></item>

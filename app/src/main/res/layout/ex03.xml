@@ -10,19 +10,24 @@
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             style="?attr/collapsingToolbarLayoutLargeStyle"
+
             android:layout_width="match_parent"
             android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
+            app:maxLines="2"
+            app:title="@string/title_audio_21"
+            app:titleEnabled="true"
+            app:collapsedTitleTextAppearance="@style/ToolbarTitleText">
             >
 
             <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/topAppBar"
                 style="@style/AppSecondToolbar"
                 android:elevation="0dp"
-                android:layout_height="match_parent"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
                 android:minHeight="?attr/actionBarSize"
                 app:menu="@menu/tertiary_menu"
-                app:title="@string/app_name"
                 app:navigationIcon="@drawable/ic_arrow_back">
 
             </com.google.android.material.appbar.MaterialToolbar>
